@@ -1,5 +1,7 @@
-<h1>Scrabble Score</h1>
-<form action="/scrabble">
+<%= erb :_head %>
+<h1 class="title">Scrabble Score</h1>
+<form class="form" action="/scrabble">
+  <label>Enter a word to score: </label>
   <input id="scrabble" name="scrabble">
   <button type="submit">Score</button>
 </form>
